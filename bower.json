@@ -1,0 +1,19 @@
+{
+  "name": "coffeeFinder",
+  "version": "0.0.0",
+  "homepage": "https://github.com/enjareyes/caffeine-please",
+  "authors": [
+    "Enja Reyes <enja.reyes@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.0"
+  }
+}

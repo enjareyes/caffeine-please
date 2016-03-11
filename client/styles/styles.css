@@ -1,0 +1,35 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url("coffee.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  width: 75%;
+  margin: auto;
+  padding: 15px;
+  text-align: center;
+  height: 80%;
+}
+
+button {
+  font-family: Helvetica, sans-serif;
+  background: transparent;
+  letter-spacing: 1px;
+  font-weight: 200;
+  cursor: pointer;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 1.7em;
+  transition: opacity ease-in-out 0.1s;
+  outline:none;
+}
+button:hover{
+  opacity:0.8;
+}
+
+#map {
+  height: 100%;
+  margin-top: 10px;
+}

@@ -1,0 +1,22 @@
+
+<html lang="en" ng-app="app">
+  <head>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="app.js"></script>
+    <link rel='stylesheet' type='text/css' href='styles/styles.css'/>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+  </head>
+
+  <body ng-controller="MainController">
+    <div class='container'>
+      <button class="link" ng-click="findCoffee()">
+        caffeine please
+      </button>
+
+      <div id="map"></div>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB15eN5k_KCESl8KhLn40t28ts1irywDkY&libraries=places"
+      async defer></script>
+    </div>
+  </body>
+</html>
